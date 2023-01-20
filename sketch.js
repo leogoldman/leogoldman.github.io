@@ -15,7 +15,7 @@ let hour_scaleFactor = 0;
 
 function preload() {
 	img = loadImage('charmander_png.png');
-	img_outline = loadImage('charmander_outline.png');
+	img_outline = loadImage('charmander_outline2.png');
 	minute_img = loadImage('charmeleon.png');
 	minute_outline = loadImage('charmeleon_outline.png');
 	hour_img = loadImage('charizard.png');
