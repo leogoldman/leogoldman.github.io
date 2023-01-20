@@ -57,7 +57,6 @@ function draw() {
   image(hour_img, 0, 0, img.width * overallscale, img.height * overallscale );
   pop();
   
-
   //minutes image outline
   let adj_minute_width = img.width;
   let adj_minute_height = img.height;
@@ -78,8 +77,5 @@ function draw() {
   translate( seconds_starting_x + subjectLeft * (1-scaleFactor), subjectBottom - subjectBottom * scaleFactor );
   scale(scaleFactor);
   image( img, 0, 0, img.width * overallscale, img.height * overallscale );
-
-  scaleFactor += .01;
-  scaleFactor = constrain( scaleFactor, 0, 1 )
 
 }
